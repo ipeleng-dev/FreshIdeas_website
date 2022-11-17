@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" onmousemove="pos(event)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Fresh Ideas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="src/images/893EAAD7-D9A6-4F33-A518-DA75B02FE0D0.png"
+    />
+  </head>
+  <body>
+    <!-- mouse  follow-->
+    <div id="position"></div>
+    <div id="circle"></div>
+    <div class="wrapper">
+      <section class="one">
+        <!-- video background-->
+        <div class="header" id="header">
+          <div class="logo">
+            <img src="src/images/893EAAD7-D9A6-4F33-A518-DA75B02FE0D0.png" />
+          </div>
+          <div class="placeholder"></div>
+          <div class="menu" onClick="openMenu()">Menu</div>
+          <video autoplay muted id="myVideo">
+            <source
+              src="src/Videos/pexels-shvets-production-7547012.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <!-- end -->
+        <!-- navigation bar-->
+        <div class="navigation" id="nav">
+          <div class="close" onClick="closeMenu()">close</div>
+        </div>
+
+        <div class="navigation__links" id="links" onClick="closeMenu()">
+          <a href="">Home</a>
+          <a href="#two">About us</a>
+          <a href="#three">Services</a>
+          <a href="#four">Contact us</a>
+        </div>
+
+        <div class="logo__menu" id="logo__menu">
+          <img src="src/images/893EAAD7-D9A6-4F33-A518-DA75B02FE0D0.png" />
+        </div>
+        <!-- end -->
+
+        <!-- Main content-->
+        <div class="main" id="main">
+          <div class="heading">Embracing Digital Culture</div>
+          <div class="sub-text">
+            Fresh ideas is a youth owned company that renders proffessional
+            branding and Corporate Affairs solutions in the competive digital
+            world.
+          </div>
+          <div class="button">
+            <input
+              type="button"
+              class="button"
+              value="our services"
+              onclick="location.href='#three';"
+            />
+          </div>
+        </div>
+        <!-- end -->
+
+        <!-- about us content-->
+      </section>
+      <section class="two" id="two">
+        <div class="content">
+          <div class="about">
+            Fresh Ideas is an integrated branding and marketing solutions
+            company founded in 2016 with the sole.
+          </div>
+        </div>
+        <div class="images">
+          <div class="img1" id="img1"></div>
+          <div class="img2" id="img2"></div>
+          <div class="img3" id="img3"></div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <!-- about us content-->
+      <section class="three" id="three">
+        <div class="more_content">
+          <div class="services">The services we provide.</div>
+        </div>
+        <div class="__Services">
+          <div class="business__support">
+            <video autoplay muted loop>
+              <source src="src/Videos/tech-support.mp4" type="video/mp4" />
+            </video>
+            <h1>Business Support</h1>
+            <p>
+              Company registration certificate registration Workman's
+              composation Company Amendments Company registration
+            </p>
+          </div>
+
+          <div class="photography">
+            <video autoplay muted loop>
+              <source src="src/Videos/photo-camera.mp4" type="video/mp4" />
+            </video>
+            <h1>photography</h1>
+            <p>
+              Cooperate funtions <br />Online content <br />
+              Private functions <br />Business profiling
+            </p>
+          </div>
+
+          <!-- <div class="design">
+            <video autoplay muted loop>
+              <source src="src/Videos/paint-palette.mp4 " type="video/mp4" />
+            </video>
+            <h1>Graphic design</h1>
+            <p>
+              Corporate Image (Logos) <br />
+              Business cards & Letter head<br />
+              Business profile/catalogue<br />
+              Album covers <br />
+              Programmes
+            </p>
+          </div> -->
+        </div>
+
+        <div class="_Services">
+          <div class="development">
+            <video autoplay muted loop>
+              <source src="src/Videos/browser.mp4" type="video/mp4" />
+            </video>
+            <h1>Web development/Software</h1>
+            <p>
+              Websites<br />
+              Software Development<br />
+              Web hosting<br />
+              Applications(Mobile and Computers)
+            </p>
+          </div>
+          <div class="other">
+            <video autoplay muted loop>
+              <source src="src/Videos/connection.mp4" type="video/mp4" />
+            </video>
+            <h1>Other</h1>
+            <p>
+              Equipment supply, Large print (Banners and Billboards), I.T
+              support services, Event/Funtion Posters & Flyers, Menus, Business
+              cards,Social media profile covers
+            </p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="design">
+            <video autoplay muted loop>
+              <source src="src/Videos/paint-palette.mp4 " type="video/mp4" />
+            </video>
+            <h1>Graphic design</h1>
+            <p>
+              Corporate Image (Logos) <br />
+              Business cards & Letter head<br />
+              Business profile/catalogue<br />
+              Album covers <br />
+              Programmes
+            </p>
+          </div>
+          <div class="extra">
+            <video autoplay muted loop>
+              <source src=" " type="video/mp4" />
+            </video>
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <section class="four" id="four">
+        <div class="contact">
+          <div class="head">
+            Love to hear from you, <br />
+            Get in touch 👋
+          </div>
+        </div>
+
+        <div class="contactDetails">
+          <!-- <div class="address">
+            <h1>Address:</h1>
+            <input type="text" id="fname" name="fname" value="John" /><br />
+          </div>
+          <div class="phone">
+            <h1>Phone:</h1>
+            <input type="text" id="fname" name="fname" value="John" /><br />
+          </div>
+          <div class="email">
+            <h1>Email:</h1>
+            tumelo@freshideasza.co.za <br />
+            <input type="submit" value="Submit" />
+          </div> -->
+          <div class="form">
+            <form action="/action_page.php">
+              <label for="fname">Full name:</label><br />
+              <input type="text" id="fname" name="fname" value="" /><br />
+              <br />
+              <label for="lname">Email:</label><br />
+              <input type="text" id="lname" name="lname" value="" /><br />
+              <br />
+              <label for="lname">Subject:</label><br />
+              <input type="text" id="lname" name="lname" value="" /><br />
+              <br />
+              <label for="lname">Message:</label><br />
+              <textarea rows="4" cols="35">Type your message here</textarea>
+              <br />
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+          <div class="social">
+            <div class="_one">
+              <a href="https://www.facebook.com/freshideasza" target="_blank">
+                <img src="src/images/facebook-black 1.png" />
+              </a>
+            </div>
+            <div class="_two">
+              <a href="https://twitter.com/fresh_ideasza" target="_blank">
+                <img src="src/images/twitter-black 1.png" />
+              </a>
+            </div>
+            <div class="_three">
+              <a
+                href="https://za.linkedin.com/in/fresh-ideas-za-206aa8122?trk=people_directory"
+                target="_blank"
+              >
+                <img src="src/images/Vector.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fa6aadf6d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/hover.js"></script>
+    <script src="javascript/effects.js"></script>
+    <script src="javascript/background.js"></script>
+  </body>
+</html>
